@@ -1,0 +1,88 @@
+.titulo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.subtitulo {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+p {
+    margin-top: 8px;
+}
+
+.formulario {
+    margin: 40px 0;
+    display: flex;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 160px;
+    height: 24px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.formulario-item {
+    margin-right: 40px;
+}
+
+button {
+    margin-right: 40px;
+    width: 96px;
+    height: 48px;
+    background-color: #2c3e50;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+}
+
+button:hover {
+    background-color: #34495e;
+}
+
+.tabela {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+table {
+    width: 480px;
+    text-align: center;
+    border: none;
+}
+
+th {
+    border-bottom: 1px solid #000;
+}
+
+td {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.resultado {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #34495e;
+    color: #fff;
+    width: 480px;
+    height: 60px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resultado h3 {
+    background-color: #34495e;
+    margin: 0;
+    padding: 4px;
+}
